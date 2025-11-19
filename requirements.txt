@@ -1,0 +1,4 @@
+PyYAML
+Flask
+pymongo
+watchdog
