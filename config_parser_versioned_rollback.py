@@ -18,8 +18,8 @@ from watchdog.events import FileSystemEventHandler
 # ====================
 # Configuration
 # ====================
-CONFIG_FILE = r'C:\HeroVired\Assignments\Python_Assignments\auto_config_save\config.yaml'
-SECRETS_FILE = r'C:\HeroVired\Assignments\Python_Assignments\auto_config_save\secrets.yaml'
+CONFIG_FILE = r'C:\auto_config_save\config.yaml'
+SECRETS_FILE = r'C:\auto_config_save\secrets.yaml'
 DB_NAME = 'config_db'
 COLLECTION_NAME = 'config_data'
 
@@ -228,3 +228,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         observer.stop()
     observer.join()
+
